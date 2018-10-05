@@ -1,0 +1,220 @@
+/* =========== Inherited Styles =========== */
+
+html,body{
+ 
+  background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjVi-GUhrfdAhVD44MKHchrCAMQjRx6BAgBEAU&url=http%3A%2F%2Fwww.ruthlessreviews.com%2F36781%2Fnfl-playoffs-wild-card-games-edition%2F&psig=AOvVaw0mYAvMrdPo8a5085Td61mp&ust=1536896067895359");
+}
+
+
+/* =========== Instructional Text =========== */
+
+.container-fluid{
+  background-image: url("assets/css/images");
+}
+
+.text-center{
+  color: rgb(0, 255, 13);
+  text-decoration-line: underline;
+}
+
+.slogan{
+  font-family: cursive;
+  color: rgb(112, 8, 8);
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.description{
+  color: rgb(195, 0, 255);
+  text-align: center;
+}
+
+.description span{
+  color: firebrick;
+  text-align: center;
+}
+
+.gameLetters span{
+  font-size: 24px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+
+
+/* =========== Game Pieces =========== */
+
+
+.gameLetters h3{
+  border: 1.5px dotted yellow;
+  color: transparent;
+  padding: 4px 4px;
+  display: inline-block;
+}
+
+.hangContain{
+  border: 1px dashed white;
+  width: 65%;
+  height: 375px;
+}
+
+.postUp{
+background-color: sienna;
+display: inline-block;
+height: 350px;
+position: relative;
+width: 10px;
+}
+
+.postRight{
+background-color: sienna;
+bottom: 340px;
+display: inline-block;
+height: 10px;
+left: -3px;
+position: relative;
+width: 120px;
+}
+
+.rope{
+background-color: khaki;
+bottom:310px;
+display: inline-block;
+height: 40px;
+position: relative;
+right:17px;
+width: 10px;
+}
+
+.head{
+background-color: grey;
+bottom:270px;
+border-radius: 50%;
+display: inline-block;
+height: 40px;
+position: relative;
+right: 46px;
+width: 40px;
+z-index: 10;
+}
+
+.body{
+background-color: grey;
+bottom: 197px;
+display: inline-block;
+height: 75px;
+position: relative;
+right:75px;
+width: 12px;
+}
+
+.leftArm{
+background-color: grey;
+bottom: 250px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:140px;
+width: 50px;
+}
+
+.rightArm{
+background-color: grey;
+bottom: 250px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:132px;
+width: 50px;
+}
+
+.leftLeg{
+background-color: grey;
+bottom: 173px;
+display: inline-block;
+height: 10px;
+position: relative;
+right:232px;
+transform: rotate(120deg);
+width: 50px;
+z-index: 2;
+}
+
+.rightLeg{
+background-color: grey;
+bottom: 187px;
+height: 10px;
+position: relative;
+left: 116px;
+transform: rotate(62deg);
+width: 50px;
+}
+
+
+.floor{
+  border: 5px solid saddlebrown;
+  bottom: 10px;
+  position: relative;
+  width: 70%;
+}
+
+.counter{
+  display: block;
+  font-size: 24px;
+  margin: 30px 0px 0px 15px;
+  width: 100%;
+}
+
+#chances{
+  color: rgb(211, 14, 14);
+}
+
+#correct{
+  color:rgb(245, 253, 251);
+}
+
+#incorrect{
+  color:rgb(96, 235, 42);
+}
+
+.letters{
+  display: inline-block;
+  padding: 17px;
+}
+
+.letters:hover{
+  color: darkorange;
+}
+
+
+/* =========== Dynamic Game Classes =========== */
+
+.vanish{
+  display: none;
+}
+
+.charGuessed{
+  background-color: black;
+  color: black;
+}
+
+
+/* =========== Endgame Classes =========== */
+
+
+.endGame{
+  height:100vh;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.endGame h1{
+  margin: 0;
+  padding-top: 30px;
+  color: chartreuse;
+}
+
+.endGame button{
+  margin-top: 30px;
+}
